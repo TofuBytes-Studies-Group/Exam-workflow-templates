@@ -6,8 +6,8 @@ on:
         
 
 env: 
-    SRC-PATH: test
-    TEST-PATH: test
+  SRC-PATH: test
+  TEST-PATH: test
     
 
 jobs:        
