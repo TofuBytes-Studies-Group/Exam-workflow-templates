@@ -14,9 +14,6 @@ jobs:
     test: 
         runs-on: ubuntu-latest
         steps:
-          - name: Testing env variables
-            run: echo "$SRC_PATH"
-
           - uses: actions/checkout@v4
           - name: Setup dotnet '8.0.x'
             uses: actions/setup-dotnet@v3
