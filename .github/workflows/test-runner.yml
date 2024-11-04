@@ -6,8 +6,8 @@ on:
         
 
 env: 
-  SRC_PATH: test
-  TEST_PATH: test
+  SRC_PATH: ./ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj
+  TEST_PATH: ./ConsoleApp1/TestMultiplier/TestMultiplier.csproj
     
 
 jobs:        

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{062F0BFD-A7C2-4DE8-9C05-B3EAF816490A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMultiplier", "TestMultiplier\TestMultiplier.csproj", "{29A58526-B7F0-41A8-84BC-080BF12F0C94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{062F0BFD-A7C2-4DE8-9C05-B3EAF816490A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062F0BFD-A7C2-4DE8-9C05-B3EAF816490A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062F0BFD-A7C2-4DE8-9C05-B3EAF816490A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062F0BFD-A7C2-4DE8-9C05-B3EAF816490A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A58526-B7F0-41A8-84BC-080BF12F0C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A58526-B7F0-41A8-84BC-080BF12F0C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A58526-B7F0-41A8-84BC-080BF12F0C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A58526-B7F0-41A8-84BC-080BF12F0C94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
