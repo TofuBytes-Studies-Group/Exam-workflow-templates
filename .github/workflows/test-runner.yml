@@ -6,14 +6,17 @@ on:
         
 
 env: 
-    SRC-PATH: 
-    TEST-PATH:   
+    SRC-PATH: test
+    TEST-PATH: test
     
 
 jobs:        
     test: 
         runs-on: ubuntu-latest
         steps:
+          - name: Testing env variables
+            run: echo "$SRC-PATH"
+
           - uses: actions/checkout@v4
           - name: Setup dotnet '8.0.x'
             uses: actions/setup-dotnet@v3
@@ -21,12 +24,12 @@ jobs:
                 dotnet-version: "8.0.x"
 
           - name: Restore dotnet
-            run: dotnet restore $SRC-PATH
+            run: dotnet restore "$SRC-PATH"
 
           - name: Build dotnet
-            run: dotnet build $SRC-PATH
+            run: dotnet build "$SRC-PATH"
 
           - name: Test dotnet
-            run: dotnet test --logger "console" $TEST-PATH
+            run: dotnet test --logger "console" "$TEST-PATH"
 
 
