@@ -60,7 +60,7 @@ namespace Kafka_Templates_Project.Services
                         _logger.LogError($"Error consuming Kafka message: {ex.Message}");
                     }
                     // Adding a delay which is non-blocking and will stop, if the application is shutting down
-                    await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
+                    await Task.Delay(TimeSpan.FromSeconds(10), stoppingToken);
                 }
             }
             catch (OperationCanceledException)
