@@ -35,7 +35,7 @@ jobs:
               with:
                 gh_token: ${{ secrets.TEST_SECRET }}
                 organization: TofuBytes-Studies-Group
-                project_id: 3
+                project_id: 1
                 resource_node_id: ${{ env.ISSUE_NODE_ID }}
                 status_value: ${{ env.approved }}
     request_changes:

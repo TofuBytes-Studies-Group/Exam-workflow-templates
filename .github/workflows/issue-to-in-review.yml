@@ -9,7 +9,7 @@ env:
   in_review: In review
 
 jobs:
-  automate-project-columns:
+  in_review:
     runs-on: ubuntu-latest
     if: github.event.pull_request.draft == false
 
